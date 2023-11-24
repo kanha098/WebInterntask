@@ -1,0 +1,42 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+}
+
+.bundle-container {
+    max-width: 600px;
+    /* Adjust as needed */
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.chocolates {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.chocolate {
+    cursor: pointer;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+.selected-chocolates {
+    margin-top: 20px;
+}
+
+.chocolate img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
